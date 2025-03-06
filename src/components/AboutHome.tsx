@@ -18,18 +18,18 @@ const AboutHome: React.FC = () => {
                     className='mb-6 lg:text-4xl font-bold bg-gradient-to-r from-amber-300 to-orange-800 text-transparent bg-clip-text'
                 >Blog de Ingeniería, Programación y Desarrollo de Software</h1>
                 <p className='text-gray-200 mb-2'>
-                    Este proyecto es un blog personal diseñado para compartir conocimientos, ideas y experiencias en el ámbito de la ingeniería,
+                        Este proyecto es un blog personal diseñado para compartir conocimientos, ideas y experiencias en el ámbito de la ingeniería,
                     la creación de proyectos, la programación y el desarrollo de software. También incluirá análisis y reflexiones sobre teorías
                     y teoremas matemáticos, así como otros temas de interés dentro del mundo tecnológico y científico.
                 </p>
                 <p className='text-gray-200'>
-                    A través de este espacio, quiero documentar mis aprendizajes, compartir avances en mis proyectos y proporcionar recursos que
+                        A través de este espacio, quiero documentar mis aprendizajes, compartir avances en mis proyectos y proporcionar recursos que
                     puedan ser útiles tanto para estudiantes como para profesionales interesados en estas disciplinas. Además, el blog servirá
                     como un portafolio en línea donde podré mostrar mi trabajo y habilidades de una manera estructurada y accesible.
                 </p>
                 <p className='text-gray-200'>Your text goes here. This is a description or any other content you want to display.</p>
                 <div className="bg-yellow-300 hover:bg-yellow-400 text-black p-2 my-4 rounded-md w-26 text-center">
-                    <a href="">Conoce más</a>
+                    <a href="/about">Conoce más</a>
                 </div>
             </div>
         </div>
