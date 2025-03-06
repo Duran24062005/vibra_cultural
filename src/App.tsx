@@ -1,16 +1,21 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-import { Header } from './components/Header'
-import Navegator from './components/Navegator'
-import { Footer } from './components/Footer'
+import Index from './Index.tsx'
+import { HomeBlog } from './blog/HomeBlog.tsx'
+import HomeGalery from './gallery/HomeGalery.tsx'
 
 function App() {
-  const logo = 'https://videolab.tec.mx/sites/g/files/vgjovo1291/files/inline-images/Una-mirada-%285%29.jpg'
-
   return (
     <>
-      <Navegator />
-      <Header Logo={logo} Text='MakeDev 2.0' Subtext='Building Ideas, Powering Innovation '/>
-      <Footer />
+      <Router>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/blog" element={<HomeBlog />} />
+        <Route path="/galery" element={<HomeGalery />} />
+        <Route path="/videos" element={<HomeBlog />} />
+        <Route path="/about" element={<HomeBlog />} />
+      </Routes>
+    </Router>
     </>
   )
 }
