@@ -72,7 +72,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="m-8 border-t border-slate-400/30 pt-4 text-center text-sm text-slate-200">
+        <div className="mt-8 border-t border-slate-400/30 pt-4 text-center text-sm text-slate-200">
           MakeDev 2.0 © {new Date().getFullYear()} All rights reserved.
         </div>
       </div>
