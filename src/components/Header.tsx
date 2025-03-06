@@ -24,7 +24,7 @@ export const Header = ({
         <img
           src={Logo}
           alt="Background header image"
-          className="object-cover opacity-80 w-full h-full"
+          className="object-covers opacity-80 w-full h-full"
         />
       </div>
       <div className="relative z-10 flex h-full items-center justify-center">
