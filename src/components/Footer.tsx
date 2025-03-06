@@ -16,7 +16,7 @@ export const Footer = () => {
           {/* Social Media Icons - Middle */}
           <div className="flex items-center justify-center gap-6">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61573188309392"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-slate-800/30 p-3 hover:bg-blue-600 transition-colors"
@@ -25,7 +25,7 @@ export const Footer = () => {
               <Facebook size={24} />
             </a>
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@MakeDev_2.0"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-slate-800/30 p-3 hover:bg-red-600 transition-colors"
@@ -34,7 +34,7 @@ export const Footer = () => {
               <Youtube size={24} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Alexi051"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-slate-800/30 p-3 hover:bg-gray-800 transition-colors"
