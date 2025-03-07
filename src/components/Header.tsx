@@ -19,23 +19,22 @@ export const Header = ({
   GradientTo = "to-rose-500"
 }: HeaderProps) => {
   return (
-    <header className="relative h-96 w-full">
+    <header className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[28rem]">
       <div className="absolute inset-0 z-0">
         <img
-          src={Logo}
+          src={Logo || "/placeholder.svg"}
           alt="Background header image"
-          className="object-covers opacity-80 w-full h-full"
-        />
+          className="object-cover opacity-80 w-full h-full"/>
       </div>
       <div className="relative z-10 flex h-full items-center justify-center">
-        <div className="text-center px-4">
+        <div className="text-center px-4 sm:px-6 md:px-8 max-w-4xl mx-auto">
           <h1
-            className={`text-4xl font-bold text-transparent bg-clip-text drop-shadow-lg md:text-5xl lg:text-6xl italic bg-gradient-to-l ${GradientFrom} ${GradientTo}`}
+            className={`text-3xl sm:text-4xl font-bold text-transparent bg-clip-text drop-shadow-lg md:text-5xl lg:text-6xl italic bg-gradient-to-l ${GradientFrom} ${GradientTo}`}
           >
             {Text}
           </h1>
           <p
-            className={`mt-4 text-xl text-transparent bg-clip-text drop-shadow-md md:text-2xl bg-gradient-to-l ${GradientFrom} ${GradientTo}`}
+            className={`mt-2 sm:mt-4 text-lg sm:text-xl font-semibold text-transparent bg-clip-text drop-shadow-md md:text-2xl lg:text-3xl bg-gradient-to-l ${GradientFrom} ${GradientTo}`}
           >
             {Subtext}
           </p>

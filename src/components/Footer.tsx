@@ -60,7 +60,7 @@ export const Footer = () => {
                   (123) 456-7890
                 </a>
               </li>
-              <li className="flex items-start gap-2 md:justify-end">
+              <li className="flex items-start gap-2 md:justify-end md:pb-4">
                 <MapPin size={16} className="flex-shrink-0 mt-1 md:order-2" />
                 <address className="not-italic">
                   123 Business Street
