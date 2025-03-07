@@ -3,7 +3,7 @@ import { Facebook, Github, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 export const Footer = () => {
   return (
-    <footer className="w-full border-t bg-gradient-to-r from-slate-700 via-slate-600 to-slate-500 pt-1 text-white">
+    <footer className="w-full border-t bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800 pt-1 text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Logo - Left Side */}

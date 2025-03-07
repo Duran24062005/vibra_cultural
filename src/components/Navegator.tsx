@@ -10,7 +10,7 @@ const Navegator = () => {
   }
 
     return (
-            <nav className="bg-gradient-to-r from-slate-700 via-slate-600 to-slate-500">
+    <nav className="bg-gradient-to-r from-slate-900 via-slate-700 to-slate-800">
       <div className="flex justify-between items-center px-6 py-4">
         <div className="">
           {/* Using a placeholder for the logo - replace with your actual logo */}
