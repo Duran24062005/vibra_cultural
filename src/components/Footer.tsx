@@ -1,4 +1,4 @@
-import Logo from '../../public/black_backgroundless.png';	
+import Logo from '../../public/cv/cv_bg_less_font-white.png';	
 import { Facebook, Github, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 export const Footer = () => {

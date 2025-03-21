@@ -12,8 +12,8 @@ function Index() {
         <Navegator />
         <Header 
             Logo={logo} 
-            Text='MakeDev 2.0' 
-            Subtext='Building Ideas, Powering Innovation '/>
+            Text='Cultural Vibes 2.0' 
+            Subtext='Hidden treasures of your town'/>
         <AboutHome />
         <Footer />
     </>

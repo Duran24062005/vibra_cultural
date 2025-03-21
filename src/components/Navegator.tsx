@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
-import Logo from '../../public/black_backgroundless.png';	
+import Logo from '../../public/cv/cv_bg_less_font-white.png';	
 
 const Navegator = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
