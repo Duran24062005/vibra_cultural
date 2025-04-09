@@ -51,7 +51,7 @@ export const Footer = () => {
               <li className="flex items-center gap-2 md:justify-end">
                 <Mail size={16} className="flex-shrink-0 md:order-2" />
                 <a href="mailto:info@example.com" className="hover:underline">
-                  info@example.com
+                  info@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 md:justify-end">
