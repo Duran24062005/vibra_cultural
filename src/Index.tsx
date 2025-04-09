@@ -1,9 +1,9 @@
 import { Header } from './components/Header'
 import Navegator from './components/Navegator'
 import AboutHome from './components/AboutHome'
-import PostList from './components/IndexBlog'
+// import PostList from './components/IndexBlog'
 import { Footer } from './components/Footer'
-import posts from "./data/posts"
+// import posts from "./data/posts"
 import log from '../public/imgs/bg-antequera.png'
 
 function Index() {
@@ -18,7 +18,7 @@ function Index() {
             Text='Cultural Vibes 2.0' 
             Subtext='Hidden treasures of your town'/>
         <AboutHome />
-        <PostList postsprops={posts}/>
+        {/* <PostList postsprops={posts}/> */}
         <Footer />
     </>
   )
