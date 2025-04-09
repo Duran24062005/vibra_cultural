@@ -19,7 +19,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
   const postsToShow = showAll ? postsprops : postsprops.slice(0, 4)
 
   return (
-    <div className="w-full bg-gradient-to-b from-orange-950 to-orange-900 text-orange-50 py-12 px-4 md:px-8 rounded-lg shadow-xl">
+    <div className="w-full bg-gradient-to-b from-slate-950 to-slate-900 text-orange-50 py-12 px-4 md:px-8 rounded-lg shadow-xl">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-orange-100 mb-4">Nuestros Blogs</h2>
@@ -30,7 +30,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
         </div>
 
         {/* Información sobre el blog */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 bg-orange-900/60 p-6 rounded-lg border border-orange-700">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 bg-slate-900/60 p-6 rounded-lg border border-slate-700">
           <div className="flex items-start space-x-3">
             <BookOpen className="w-6 h-6 text-orange-300 mt-1 flex-shrink-0" />
             <div>
@@ -67,7 +67,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
           {postsToShow.map((post) => (
             <div
               key={post.id}
-              className="bg-orange-950/50 rounded-lg overflow-hidden border border-orange-800 hover:border-orange-700 transition-all hover:shadow-lg hover:shadow-orange-900/30"
+              className="bg-slate-950/30 rounded-lg overflow-hidden border border-slate-800 hover:border-slate-700 transition-all hover:shadow-lg hover:shadow-orange-900/30"
             >
               <div className="relative h-48 overflow-hidden">
                 <img

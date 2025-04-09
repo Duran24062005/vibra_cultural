@@ -13,7 +13,7 @@ export const HomeBlog = () => {
         <Navegator />
         <Header 
             Logo={BackgroundImage }
-            Text="MakeDev 2.0" 
+            Text="Cultural Vibes Blogs" 
             Subtext="Nuestra cultura vibra en el desarrollo"
             GradientFrom="from-rose-500"
             GradientTo="to-slate-800" />

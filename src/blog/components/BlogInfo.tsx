@@ -7,19 +7,19 @@ export default function BlogInfo() {
         <h2 className="text-3xl md:text-4xl font-bold text-orange-100 mb-8 text-center">Nuestra Comunidad de Blogs</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-orange-950/50 p-6 rounded-lg border border-orange-800 hover:bg-orange-950/70 transition-colors">
+          <div className="bg-slate-950/50 p-6 rounded-lg border border-slate-800 hover:bg-slate-950/70 transition-colors">
             <div className="flex items-center mb-4">
               <BookOpen className="w-8 h-8 text-orange-300 mr-3" />
               <h3 className="text-xl font-semibold text-orange-200">¿Qué encontrarás aquí?</h3>
             </div>
-            <p className="text-orange-100/90">
+            <p className="text-slate-100/90">
               Nuestra plataforma alberga una colección diversa de blogs sobre viajes, cultura, gastronomía y
               experiencias locales. Cada publicación está cuidadosamente creada para inspirar y compartir conocimientos
               auténticos sobre destinos alrededor del mundo.
             </p>
           </div>
 
-          <div className="bg-orange-950/50 p-6 rounded-lg border border-orange-800 hover:bg-orange-950/70 transition-colors">
+          <div className="bg-slate-950/50 p-6 rounded-lg border border-slate-800 hover:bg-orange-950/70 transition-colors">
             <div className="flex items-center mb-4">
               <Users className="w-8 h-8 text-orange-300 mr-3" />
               <h3 className="text-xl font-semibold text-orange-200">¿Quiénes publican?</h3>

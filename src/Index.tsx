@@ -15,7 +15,7 @@ function Index() {
         <Navegator />
         <Header 
             Logo={log} 
-            Text='Cultural Vibes 2.0' 
+            Text='Cultural Vibes' 
             Subtext='Hidden treasures of your town'/>
         <AboutHome />
         {/* <PostList postsprops={posts}/> */}
