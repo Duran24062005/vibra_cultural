@@ -1,7 +1,10 @@
 import Navegator from "../components/Navegator"
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
-import BackgroundImage from "../../public/dbb125a9-ae2b-43bd-90e4-b111721c6c42.jpeg"
+import BackgroundImage from "../../public/imgs/img (14).jpg"
+import { Informations } from "./components/Informations"
+import PostList from "./components/BlogList"
+import { samplePosts } from "../data/blogsdata"
 
 export const HomeBlog = () => {
     
@@ -11,9 +14,11 @@ export const HomeBlog = () => {
         <Header 
             Logo={BackgroundImage }
             Text="MakeDev 2.0" 
-            Subtext="Building Ideas, Powering Innovation"
-            GradientFrom="from-orange-300"
-            GradientTo="to-rose-500" />
+            Subtext="Nuestra cultura vibra en el desarrollo"
+            GradientFrom="from-rose-500"
+            GradientTo="to-slate-800" />
+            <Informations />
+            <PostList postsprops={samplePosts}/>
         <Footer />
     </>
   )

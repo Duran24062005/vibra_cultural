@@ -73,7 +73,7 @@ export const Footer = () => {
         </div>
 
         <div className="py-4 border-t border-slate-400/30 pt-4 text-center text-sm text-slate-200">
-          MakeDev 2.0 © {new Date().getFullYear()} All rights reserved.
+          Cultural Vibes © {new Date().getFullYear()} All rights reserved.
         </div>
       </div>
     </footer>

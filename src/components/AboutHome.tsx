@@ -1,6 +1,6 @@
 import React from 'react';
-import img1 from '../../public/dbb125a9-ae2b-43bd-90e4-b111721c6c42.jpeg';
-import img2 from '../../public/descarga (6).jpeg'
+import img1 from '../../public/imgs/img (14).jpg';
+import img2 from '../../public/imgs/img (15).jpg'
 
 const AboutHome: React.FC = () => {
     return (
