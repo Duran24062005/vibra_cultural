@@ -2,7 +2,7 @@ import { BookOpen, Users, PenTool, MessageSquare } from "lucide-react"
 
 export default function BlogInfo() {
   return (
-    <div className="w-full bg-gradient-to-b from-orange-950 to-orange-900 text-orange-50 py-12 px-4 md:px-8 rounded-lg shadow-xl">
+    <div className="w-full bg-gradient-to-b from-slate-950 to-slate-900 text-orange-50 py-12 px-4 md:px-8 rounded-lg shadow-xl">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-100 mb-8 text-center">Nuestra Comunidad de Blogs</h2>
 
@@ -31,7 +31,7 @@ export default function BlogInfo() {
             </p>
           </div>
 
-          <div className="bg-orange-950/50 p-6 rounded-lg border border-orange-800 hover:bg-orange-950/70 transition-colors">
+          <div className="bg-slate-950/50 p-6 rounded-lg border border-slate-800 hover:bg-slate-950/70 transition-colors">
             <div className="flex items-center mb-4">
               <PenTool className="w-8 h-8 text-orange-300 mr-3" />
               <h3 className="text-xl font-semibold text-orange-200">¿Cómo participar?</h3>
@@ -43,7 +43,7 @@ export default function BlogInfo() {
             </p>
           </div>
 
-          <div className="bg-orange-950/50 p-6 rounded-lg border border-orange-800 hover:bg-orange-950/70 transition-colors">
+          <div className="bg-slate-950/50 p-6 rounded-lg border border-slate-800 hover:bg-slate-950/70 transition-colors">
             <div className="flex items-center mb-4">
               <MessageSquare className="w-8 h-8 text-orange-300 mr-3" />
               <h3 className="text-xl font-semibold text-orange-200">¿Para qué sirven?</h3>
@@ -56,7 +56,7 @@ export default function BlogInfo() {
           </div>
         </div>
 
-        <div className="bg-orange-900/60 p-6 rounded-lg border border-orange-700 text-center">
+        <div className="bg-slate-900/60 p-6 rounded-lg border border-slate-700 text-center">
           <h3 className="text-xl font-semibold text-orange-200 mb-4">¿Listo para compartir tu historia?</h3>
           <p className="text-orange-100/90 mb-6">
             Todos pueden participar: viajeros, fotógrafos, escritores y entusiastas de la cultura. Lo importante es

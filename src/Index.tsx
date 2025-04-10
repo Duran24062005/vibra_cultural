@@ -16,8 +16,11 @@ function Index() {
         <Header 
             Logo={log} 
             Text='Cultural Vibes' 
-            Subtext='Hidden treasures of your town'/>
-        <AboutHome />
+            Subtext='Tesoros ocultos de nuestro pueblo'
+            GradientFrom='from-blue-100'
+            GradientTo='to-yellow-300'
+            />
+        <AboutHome btnIf={true}/>
         {/* <PostList postsprops={posts}/> */}
         <Footer />
     </>
