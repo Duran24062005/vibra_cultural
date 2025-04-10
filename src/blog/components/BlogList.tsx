@@ -24,7 +24,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-orange-100 mb-4">Nuestros Blogs</h2>
           <p className="text-orange-200/80 max-w-2xl mx-auto">
-            Explora nuestras historias y experiencias compartidas por viajeros apasionados de todo el mundo. Cada
+            Explora nuestras historias y experiencias compartidas por paisanos apasionados y personas que vienen de viaje. Cada
             publicación ofrece una perspectiva única sobre destinos fascinantes.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
             <div>
               <h3 className="text-lg font-semibold text-orange-200">Sobre nuestro blog</h3>
               <p className="text-orange-100/90 text-sm">
-                Compartimos experiencias auténticas de viajeros de todo el mundo, con historias que inspiran y educan.
+                Compartimos experiencias auténticas de viajeros y personas nativas del pueblo con historias que inspiran y educan.
               </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
             <div>
               <h3 className="text-lg font-semibold text-orange-200">Publicaciones regulares</h3>
               <p className="text-orange-100/90 text-sm">
-                Nuevas historias cada semana para mantenerte inspirado y conectado con destinos de todo el mundo.
+                Nuevas historias cada semana para mantenerte inspirado y conectado.
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function BlogList({ postsprops }: BlogListProps) {
           {postsToShow.map((post) => (
             <div
               key={post.id}
-              className="bg-slate-950/30 rounded-lg overflow-hidden border border-slate-800 hover:border-slate-700 transition-all hover:shadow-lg hover:shadow-orange-900/30"
+              className="bg-slate-950/30 rounded-lg overflow-hidden border border-slate-800 hover:border-slate-700 transition-all hover:shadow-lg hover:shadow-green-900/30"
             >
               <div className="relative h-48 overflow-hidden">
                 <img

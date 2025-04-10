@@ -3,6 +3,7 @@ import { Footer } from "../components/Footer"
 import Navegator from "../components/Navegator"
 import BackgroundImage from "../../public/imgs/img (9).jpg"
 import AboutHome from "../components/AboutHome"
+import BlogInfo from "../components/BlogInfo"
 
 export const HomeAbout = () => {
   return (
@@ -16,6 +17,7 @@ export const HomeAbout = () => {
             GradientTo="to-orange-50" 
             />
         <AboutHome btnIf={false} />
+        <BlogInfo />
         <Footer />
     </>
   )

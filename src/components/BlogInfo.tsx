@@ -2,7 +2,7 @@ import { BookOpen, Users, PenTool, MessageSquare } from "lucide-react"
 
 export default function BlogInfo() {
   return (
-    <div className="w-full bg-gradient-to-b from-slate-950 to-slate-900 text-orange-50 py-12 px-4 md:px-8 rounded-lg shadow-xl">
+    <div className="w-full bg-gradient-to-b from-slate-950 to-slate-900 text-orange-50 py-12 px-4 md:px-8 shadow-xl">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-100 mb-8 text-center">Nuestra Comunidad de Blogs</h2>
 
@@ -14,8 +14,8 @@ export default function BlogInfo() {
             </div>
             <p className="text-slate-100/90">
               Nuestra plataforma alberga una colección diversa de blogs sobre viajes, cultura, gastronomía y
-              experiencias locales. Cada publicación está cuidadosamente creada para inspirar y compartir conocimientos
-              auténticos sobre destinos alrededor del mundo.
+              experiencias tanto locales así como del publico general, nacional. Cada publicación está cuidadosamente creada para inspirar y compartir conocimientos
+              auténticos sobre destinos.
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function BlogInfo() {
               <h3 className="text-xl font-semibold text-orange-200">¿Quiénes publican?</h3>
             </div>
             <p className="text-orange-100/90">
-              Nuestros blogs son creados por viajeros apasionados, expertos locales y colaboradores invitados que
+              Nuestros blogs son creados por todo tipo de publico apasionados, expertos locales y colaboradores invitados que
               comparten sus experiencias únicas. Cada autor aporta su perspectiva personal y conocimientos
               especializados sobre los destinos que han explorado.
             </p>
@@ -38,7 +38,8 @@ export default function BlogInfo() {
             </div>
             <p className="text-orange-100/90">
               ¿Tienes una historia que contar? Puedes unirte a nuestra comunidad de colaboradores registrándote en la
-              plataforma. Después de crear tu perfil, podrás enviar tus propuestas de contenido para revisión. Buscamos
+              plataforma y enviando los datos a nuestro contacto. Después de enviar, podremos ver tus propuestas de contenido para revisión, luego 
+              de ser revisadas si son aceptables serán publicadas. Buscamos
               voces auténticas con historias originales y perspectivas únicas.
             </p>
           </div>
@@ -49,7 +50,7 @@ export default function BlogInfo() {
               <h3 className="text-xl font-semibold text-orange-200">¿Para qué sirven?</h3>
             </div>
             <p className="text-orange-100/90">
-              Nuestros blogs tienen como objetivo inspirar, informar y conectar a viajeros de todo el mundo. Compartimos
+              Nuestros blogs tienen como objetivo inspirar, informar y conectar con todos y toadas las personas que concen y darle a conocer a los que no. Compartimos
               consejos prácticos, recomendaciones locales y relatos personales que ayudan a otros a planificar sus
               propias aventuras y descubrir destinos menos conocidos pero igualmente fascinantes.
             </p>

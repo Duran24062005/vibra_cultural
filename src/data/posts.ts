@@ -1,3 +1,4 @@
+// import lgoo from '../../public/imgs/img (15).jpg';
 interface Post {
     id: number;
     image: string;
@@ -10,7 +11,7 @@ interface Post {
 const posts: Post[] = [
     {
         id: 1,
-        image: 'https://via.placeholder.com/300',
+        image: '../../public/imgs/img (15).jpg',
         title: 'Post 1',
         text: 'Texto del post 1...',
         creador: 'Juan Graza',

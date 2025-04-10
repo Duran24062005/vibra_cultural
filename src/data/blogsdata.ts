@@ -2,7 +2,7 @@
 export const samplePosts = [
   {
     id: "1",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "../../public/imgs/img (15).jpg",
     title: "Atardecer en el lago: Una experiencia inolvidable",
     text: "Descubre la magia de los atardeceres en este remoto lago, donde el cielo se tiñe de naranjas y rojos mientras pequeñas embarcaciones navegan silenciosamente por sus aguas. Una experiencia que despierta todos los sentidos.",
     creador: "María González",
@@ -10,7 +10,7 @@ export const samplePosts = [
   },
   {
     id: "2",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "../../public/imgs/img (1).jpg",
     title: "Navegando entre colores: La vida en los ríos",
     text: "La vida de las comunidades ribereñas está marcada por el ritmo del agua. Acompáñanos en este viaje por los ríos más impresionantes y conoce las historias de quienes han hecho del agua su hogar y sustento.",
     creador: "Carlos Mendoza",
@@ -18,7 +18,7 @@ export const samplePosts = [
   },
   {
     id: "3",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "../../public/imgs/img (2).jpg",
     title: "Fotografía de viaje: Capturando momentos únicos",
     text: "Aprende técnicas para capturar los momentos más especiales de tus viajes. Desde paisajes impresionantes hasta retratos que cuentan historias, descubre cómo la fotografía puede transformar tu experiencia viajera.",
     creador: "Ana Pérez",
@@ -26,7 +26,7 @@ export const samplePosts = [
   },
   {
     id: "4",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "../../public/imgs/img (3).jpg",
     title: "Destinos para contemplar el atardecer perfecto",
     text: "Hemos recopilado los mejores lugares del mundo para contemplar atardeceres espectaculares. Desde playas paradisíacas hasta montañas imponentes, estos son los escenarios perfectos para el espectáculo diario del sol.",
     creador: "Roberto Sánchez",
@@ -34,7 +34,7 @@ export const samplePosts = [
   },
   {
     id: "5",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "../../public/imgs/img (4).jpg",
     title: "Viajes sostenibles: Cómo reducir tu huella ecológica",
     text: "Descubre cómo puedes disfrutar de tus aventuras mientras cuidas el planeta. Consejos prácticos, alojamientos eco-friendly y actividades responsables para convertirte en un viajero consciente.",
     creador: "Laura Martínez",
@@ -42,7 +42,7 @@ export const samplePosts = [
   },
   {
     id: "6",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "../../public/imgs/img (5).jpg",
     title: "Gastronomía local: Sabores que cuentan historias",
     text: "La comida es una ventana a la cultura de un lugar. Acompáñanos en este recorrido gastronómico por platos tradicionales que revelan la historia, tradiciones y alma de los destinos más fascinantes.",
     creador: "Diego Hernández",
